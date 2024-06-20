@@ -198,6 +198,31 @@ body {
   }
 }
 
+.adorment {
+  display: flex;
+  position: absolute;
+  top: auto;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  height: 16px;
+}
+
+.adorment-red {
+  background-color: #A41715;
+  width: 40%;
+}
+
+.adorment-color {
+  height: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.adorment-transparent {
+  width: 100%;
+}
+
 /* Sections*/
 .hero {
   height: 100vh;
@@ -365,29 +390,38 @@ body {
   border-radius: 100px;
 }
 
-.adorment {
-  display: flex;
-  position: absolute;
-  top: auto;
-  bottom: 0px;
-  right: 0px;
-  left: 0px;
-  height: 16px;
-}
-
-.adorment-red {
-  background-color: #A41715;
-  width: 40%;
-}
-
-.adorment-color {
-  height: 16px;
+.banner {
+  height: 400px;
+  background-image: url(../img/decorative/bg-banner.webp);
+  background-size: cover;
+  background-position: center;
+  position: relative;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
-.adorment-transparent {
-  width: 100%;
+.banner-container {
+  max-width: 780px;
+}
+@media (max-width: 991px) {
+  .banner-container {
+    max-width: 560px;
+  }
+}
+.banner-container h3 {
+  color: white;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+}
+@media (max-width: 767px) {
+  .banner-container h3 {
+    font-size: 18px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

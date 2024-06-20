@@ -1,0 +1,24 @@
+.adorment {
+    display: flex;
+    position: absolute;
+    top: auto;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    height: 16px;
+}
+
+.adorment-red {
+    background-color: $shark-red;
+    width: 40%;
+}
+
+.adorment-color {
+    height: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.adorment-transparent {
+    width: 100%;
+}

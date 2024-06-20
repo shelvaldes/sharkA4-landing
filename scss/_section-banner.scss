@@ -1,0 +1,30 @@
+.banner {
+  height: 400px;
+  background-image: url(../img/decorative/bg-banner.webp);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-container {
+  max-width: 780px;
+  @media (max-width: $tablet) {
+    max-width: 560px;
+  }
+
+  h3 {
+    color: white;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+        @media (max-width: $mobile){
+            font-size: 18px;
+        }
+  }
+}
