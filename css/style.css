@@ -314,13 +314,14 @@ body {
 
 .section-bullets {
   padding-top: 56px;
-  padding-bottom: 56px;
+  padding-bottom: 92px;
   background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FFF 100%);
   display: flex;
   flex-direction: column;
   text-align: center;
   align-items: center;
   gap: 56px;
+  position: relative;
 }
 
 .bullet-title {
@@ -328,9 +329,21 @@ body {
 }
 
 .bullets-container {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   gap: 24px;
 }
+@media (max-width: 991px) {
+  .bullets-container {
+    grid-template-columns: repeat(2, 2fr);
+  }
+}
+@media (max-width: 767px) {
+  .bullets-container {
+    grid-template-columns: repeat(1, 4fr);
+  }
+}
+
 .bullet-wrapper {
   width: 100%;
   display: flex;
@@ -343,14 +356,38 @@ body {
 }
 @media (max-width: 991px) {
   .bullet-wrapper {
-    width: calc(50% - 25px);
+    max-width: 250px;
   }
 }
-
 .bullet-img {
   width: 90px;
   height: 90px;
   border-radius: 100px;
+}
+
+.adorment {
+  display: flex;
+  position: absolute;
+  top: auto;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  height: 16px;
+}
+
+.adorment-red {
+  background-color: #A41715;
+  width: 40%;
+}
+
+.adorment-color {
+  height: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.adorment-transparent {
+  width: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */

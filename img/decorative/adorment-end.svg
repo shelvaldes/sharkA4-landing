@@ -1,7 +1,69 @@
-<svg width="69" height="17" viewBox="0 0 69 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M15.6113 17.0001H0.696045V0.000298751L26.3302 0.000244141L15.6113 17.0001Z" fill="#A41715"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M15.3302 16.9998L26.2886 0H36.8206L26.113 16.9998H15.3302Z" fill="#3F8CCA"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M25.8206 16.9998L36.7789 0H47.3109L36.6034 16.9998H25.8206Z" fill="#F7AE00"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M36.3109 16.9998L47.2693 0H57.8013L47.0938 16.9998H36.3109Z" fill="#8E2B86"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M46.8013 16.9998L57.7596 0H68.2916L57.5841 16.9998H46.8013Z" fill="#1D8737"/>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="67"
+   height="16"
+   viewBox="0 0 67 16"
+   fill="none"
+   version="1.1"
+   id="svg5"
+   sodipodi:docname="adorment-end.svg"
+   inkscape:version="1.3.2 (091e20ef0f, 2023-11-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs5" />
+  <sodipodi:namedview
+     id="namedview5"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="6.7391304"
+     inkscape:cx="33.683871"
+     inkscape:cy="8.4580645"
+     inkscape:window-width="1440"
+     inkscape:window-height="758"
+     inkscape:window-x="0"
+     inkscape:window-y="32"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg5" />
+  <g
+     id="g5"
+     transform="matrix(0.99118944,0,0,0.94117093,-0.68991245,0)">
+    <path
+       fill-rule="evenodd"
+       clip-rule="evenodd"
+       d="M 15.6113,17.0001 H 0.696045 V 2.98751e-4 L 26.3302,2.44141e-4 Z"
+       fill="#a41715"
+       id="path1" />
+    <path
+       fill-rule="evenodd"
+       clip-rule="evenodd"
+       d="M 15.3302,16.9998 26.2886,0 h 10.532 L 26.113,16.9998 Z"
+       fill="#3f8cca"
+       id="path2" />
+    <path
+       fill-rule="evenodd"
+       clip-rule="evenodd"
+       d="M 25.8206,16.9998 36.7789,0 h 10.532 L 36.6034,16.9998 Z"
+       fill="#f7ae00"
+       id="path3" />
+    <path
+       fill-rule="evenodd"
+       clip-rule="evenodd"
+       d="M 36.3109,16.9998 47.2693,0 h 10.532 L 47.0938,16.9998 Z"
+       fill="#8e2b86"
+       id="path4" />
+    <path
+       fill-rule="evenodd"
+       clip-rule="evenodd"
+       d="M 46.8013,16.9998 57.7596,0 h 10.532 L 57.5841,16.9998 Z"
+       fill="#1d8737"
+       id="path5" />
+  </g>
 </svg>
