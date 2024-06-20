@@ -1,0 +1,17 @@
+body {
+    background-color: $rice;
+}
+
+.container {
+    max-width: 1180px;
+    width: 100%;
+    padding: 0px 24px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tablet-container {
+    @media (min-width: $mobile) and (max-width: $tablet) {
+        padding: 0 50px;
+    }
+}

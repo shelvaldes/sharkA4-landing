@@ -1,0 +1,43 @@
+// Colors
+$shark-red: #A41715;
+$gray-dark: #575757;
+$gray-light: #F1F1F1;
+$rice: #F9F9F9;
+$text-blue: #004584;
+$black: #212121;
+
+// fonts
+$roboto: 'Roboto', sans-serif;
+$poppins: 'Poppins', sans-serif;
+
+// Definición de la fuente Roboto
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Regular.ttf') format('truetype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+// Definición de la fuente Roboto Bold
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+// Definición de la fuente Poppins Bold
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+// breakpoints
+$tablet: 991px;
+$mobile: 767px;
+
+// Shadow
+$shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.10);
+$shadow-png: drop-shadow(0px 2px 20px rgba(0, 0, 0, 0.10));

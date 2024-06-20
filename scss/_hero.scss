@@ -1,0 +1,59 @@
+.hero {
+    height: 100vh;
+    position: relative;
+}
+
+.hero-container {
+    z-index: 10;
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+}
+
+.hero-bg {
+    z-index: 1;
+    height: 100vh;
+    position: absolute;
+    width: 100%;
+}
+
+.hero-bg-white {
+    background-color: white;
+    height: 50vh;
+    width: 100%;
+
+}
+
+.hero-bg-chevron {
+    height: 50vh;
+    width: 100%;
+    background-image: url(../img/decorative/chevron.svg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+@media (max-width: $tablet) {
+    .hero-bg-white {
+        height: 60vh;
+    }
+    .hero-bg-chevron {
+        height: 40vh;
+    }
+}
+
+.hero-img-container {
+    height: calc(100vh - 72px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-img {
+    max-width: 600px;
+    width: 100%;
+    filter: $shadow-png;
+}
